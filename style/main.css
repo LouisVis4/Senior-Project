@@ -16,6 +16,7 @@
 #brand-name{
     margin-right: auto;
     font-size: 40px;
+    font-family: 'Oswald', serif;
 }
 
 .navbar {
@@ -23,6 +24,7 @@
     justify-content: flex-end;
     align-items: flex-end;
     padding: 10px;
+    padding-bottom: 5px;
     background-color: #001f24;
     position: sticky;
 }
@@ -53,7 +55,7 @@
 
 .jumbotron{
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     background-color: #004f58;
 }
 
@@ -69,6 +71,10 @@
     background-color: #004f58;
     text-align: center;
     font-family: 'Cardo', serif;
+}
+
+.container-text h1{
+    font-family: 'Oswald', serif;
 }
 
 footer{
