@@ -71,6 +71,8 @@
     background-color: #004f58;
     text-align: center;
     font-family: 'Cardo', serif;
+    padding-right: 4rem;
+    padding-left: 4rem;
 }
 
 .container-text h1{
