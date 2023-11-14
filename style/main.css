@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#nav_items, button, #conbar, .media {
+    font-family: 'Oswald', serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+#brand-name{
+    margin-right: auto;
+    font-size: 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10px;
+    background-color: #001f24;
+    position: sticky;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    align-items: flex-end;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+    justify-content: center;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: black;
+}
+
+.jumbotron{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #004f58;
+}
+
+.jumboimg{
+    display: block;
+    border-radius: 35px;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-text {
+    background-color: #004f58;
+    text-align: center;
+    font-family: 'Cardo', serif;
+}
+
+#catmain {
+    background-color: #004f58;
+}
